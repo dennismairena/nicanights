@@ -9,8 +9,8 @@ var nomore = $("#nomore");
 // feed settings
 var feed = new Instafeed({
     get: 'user',
-    userId: 195761337,
-    accessToken: '195761337.467ede5.6da7b37454ee4ce2a589b5227f45d4f2',
+    userId: 1179155871,
+    accessToken: '1179155871.1677ed0.b8a4e970285d40829ea76c2e3235',
     target: 'instafeed',
     limit: 15, // max 60
     sortBy: 'most-recent',
