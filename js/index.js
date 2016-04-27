@@ -64,7 +64,7 @@ var feed = new Instafeed({
         // * end function execution
         return true;
     },
-    template: '<a class="image"><span class="filter"><span class="iconicstroke-heart-stroke"></span><p>{{likes}}</p></span><img src="{{image}}"><div class="info"><p class="caption"><span class="iconicstroke-comment-alt2-stroke"></span>{{caption}}</p><p class="location"><span class="iconicstroke-compass"></span>{{location}}</p><p class="date"><span class="iconicstroke-clock"></span>{{model.created_time}}</p></div><div class="likes"><span class="iconicstroke-heart-stroke"></span><p>{{likes}}</p></div></a>'
+    template: '<a class="image"><span class="filter">{{likes}}</span><img src="{{image}}"><div class="info"><p class="caption"><span class="iconicstroke-comment-alt2-stroke"></span>{{caption}}</p><p class="location"><span class="iconicstroke-compass"></span>{{location}}</p><p class="date"><span class="iconicstroke-clock"></span>{{model.created_time}}</p></div><div class="likes"><span class="iconicstroke-heart-stroke"></span><p>{{likes}}</p></div></a>'
 });
 
 // pagination binding
