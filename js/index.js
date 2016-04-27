@@ -13,7 +13,7 @@ var feed = new Instafeed({
     //get: 'user',
     userId: 179155871,
     accessToken: '179155871.1677ed0.b8a4e970285d40829ea76c2e3235ed20',
-    target: 'instafeed',
+ 
     limit: 15, // max 60
     sortBy: 'most-liked',
     resolution: 'standard_resolution',
