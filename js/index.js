@@ -9,12 +9,12 @@ var nomore = $("#nomore");
 // feed settings
 var feed = new Instafeed({
     get: 'tagged',
-    tagName: 'food',
+    tagName: 'restaurant',
     //get: 'user',
     userId: 179155871,
     accessToken: '179155871.1677ed0.b8a4e970285d40829ea76c2e3235ed20',
  
-    limit: 15, // max 60
+    limit: 12, // max 60
     sortBy: 'most-liked',
     resolution: 'standard_resolution',
     // when each set of images are loaded... *
