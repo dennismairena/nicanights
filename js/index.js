@@ -8,13 +8,13 @@ var nomore = $("#nomore");
 
 // feed settings
 var feed = new Instafeed({
-    get: 'tagged',
-    tagName: 'restaurant',
-    //get: 'user',
+    
+    //get: 'tagged',
+    //tagName: 'restaurant',
+    get: 'user',
     userId: 179155871,
     accessToken: '179155871.1677ed0.b8a4e970285d40829ea76c2e3235ed20',
- 
-    limit: 12, // max 60
+     limit: 24, // max 60
     sortBy: 'most-liked',
     resolution: 'standard_resolution',
     // when each set of images are loaded... *
@@ -66,7 +66,7 @@ var feed = new Instafeed({
         // * end function execution
         return true;
     },
-    template: '<a class="image" href="https://google.com.ni/maps/search/{{location}}"><img src="{{image}}"><div class="info"><p class="caption"><span class="iconicstroke-comment-alt2-stroke"></span>{{caption}}</p><p class="location"><span class="iconicstroke-compass"></span>{{location}}</p><p class="date"><span class="iconicstroke-clock"></span>{{model.created_time}}</p></div><div class="likes"><span class="iconicstroke-heart-stroke"></span><p>{{likes}}</p></div></a>'
+    template: '<a class="image" href="https://google.com.ni/maps/search/{{location}}"><img src="{{image}}"><div class="info"><p class="location"><span class="iconicstroke-compass"></span>{{location}}</p><p class="date"><span class="iconicstroke-clock"></span>{{model.created_time}}</p></div><div class="likes"><span class="iconicstroke-heart-stroke"></span><p>{{likes}}</p></div></a>'
 });
 
 // pagination binding
